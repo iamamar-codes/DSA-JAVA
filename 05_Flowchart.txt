@@ -1,0 +1,24 @@
+#FLOWCHART: flowchart is just a Diagrammatic representation
+of an Algorithms.
+
+exmaple ->  start
+             |
+             |
+            \|/
+
+         input a = 1
+             |
+             |
+            \|/
+
+         Sum a + b
+             |
+             |
+            \|/
+
+         print Sum
+             |
+             |
+            \|/
+
+            End
