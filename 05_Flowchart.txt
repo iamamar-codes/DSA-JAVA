@@ -6,7 +6,7 @@ exmaple ->  start
              |
             \|/
 
-         input a = 1
+         input a= 1, b= 2
              |
              |
             \|/
