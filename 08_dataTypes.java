@@ -40,7 +40,7 @@ class DataTypes{
 
         //EXplicit Conversion: converting Big data type to the Small data type
 
-        long no2 = 922337203;
+        long no2 = 922337203;   //Data can be lost
         int newNo2 = (int)no2;
         System.out.println("Big to Small conversion: "+ newNo2);
 
