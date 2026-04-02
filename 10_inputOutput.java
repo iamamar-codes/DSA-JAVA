@@ -33,6 +33,7 @@ class inputOutput{
         System.out.println("shortValue: "+shortVal);
         System.out.println("floatValue: "+floatValue);
 
+        sc.close();
         
     }
 }
