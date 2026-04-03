@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Conditionals {
     /*1. IF - Statement
     2. IF-ELSE Statement
@@ -54,7 +56,7 @@ class Conditionals {
             System.out.println("Thursday");
         }
         else if(day == 5){
-            System.out.println("Frienday");
+            System.out.println("Friday");
         }
         else if(day == 6){
             System.out.println("Saturday");
@@ -91,6 +93,44 @@ class Conditionals {
                 System.out.println("not a pandit not a Mishra");
             }
         }
+
+
+        //5. TERNARY OPERATOR
+        int streakDays = 30;
+            //variable                  //if
+        String status = (streakDays >=30) ? "Consistent" : "Irregular";
+                         //condition         //true         //false
+
+        System.out.println(status);
+
+            
+        int Age = 19;
+        int ans = (Age>18) ? 22 : 12;
+        System.out.println(ans);
+
+        
+        //6. SWITCH Statement 
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a Number: ");
+        int dayNumber = sc.nextInt();
+
+        switch (dayNumber) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednessday");
+                break;
+            default:
+                System.out.println("Wrong Choice");
+        }
+
+
+
+
 
 
 
