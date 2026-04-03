@@ -6,6 +6,10 @@ class Conditionals {
     5. TERNARY OPERATOR
     6. SWITCH Statement */
     public static void main(String[] args) {
-        
+        //1. IF - Statement
+        int age = 20;
+        if(age >= 18){
+            System.out.println("You are eligible for Job");
+        }
     }
 }
