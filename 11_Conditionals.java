@@ -67,5 +67,33 @@ class Conditionals {
         }
 
 
+
+        //4. NESTED IF-ELSE
+        String Surename = "Pandit";
+        String subSurename = "Mishra";
+
+
+        if(Surename == "Pandit"){
+            System.out.println("Your are pandit");
+            if(subSurename == "Mishra"){
+                System.out.println("Mishra Pandit");
+            }
+            else{
+                System.out.println("Another Pandit");
+            }
+        }
+        else{
+            System.out.println("You are not a Pandit");
+            if(subSurename == "Mishra"){
+                System.out.println("Your not a pandit but Your Mishra");
+            }
+            else{
+                System.out.println("not a pandit not a Mishra");
+            }
+        }
+
+
+
+
     }
 }
