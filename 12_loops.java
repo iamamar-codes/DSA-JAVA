@@ -61,5 +61,23 @@ class loops {
             start++;
         }
 
+        //Do-while Loop
+
+        int a = 1;   //initialization
+        do{
+
+            System.out.println("Do while loop: "+a);
+            a++;   //updation
+
+        }while(a<=5);   //condition
+
+
+        int b = 1;
+        do{
+            System.out.println(b);
+            b++;
+        }while(b<=0);   //Run Atleast onces because it first exicute the code then check the condition
+
+
     }
 }
