@@ -43,5 +43,23 @@ class loops {
             System.out.println(i);
         }
 
+        // While Loop
+
+        int i = 1; // initialization
+        while (i <= 5) { // condition
+            System.out.println("Hello World");
+            i++; // update
+        }
+
+        int start = 1;
+        while (start <= 3) {
+            int st = 1;
+            while (st <= 3) {
+                System.out.println("start= " + start + ", st=" + st);
+                st++;
+            }
+            start++;
+        }
+
     }
 }
