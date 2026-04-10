@@ -15,11 +15,19 @@ class methods {
         System.out.println("Sum: "+ sum);
     }
 
+    //Non Void function: return something
+    static int adding (int p, int q){
+        int sum = p+q;
+        System.out.println("Sum:" + (p+q) );
+        return sum;
+    }
+
     public static void main(String[] args) {
 
         //call or invoke object
         add();       
         printSum(20, 5);
+        adding(5, 8);
     }
 
 }
