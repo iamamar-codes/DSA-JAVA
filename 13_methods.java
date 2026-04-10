@@ -1,13 +1,13 @@
 class methods {
-   static void StudentName() {
-        System.out.println("Amar Kushwaha");
+   static void add() {
+        int a= 2;
+        int b =3;
+        int sum = a+b;
+        System.out.println(sum);
     }
 
     public static void main(String[] args) {
-        System.out.println("Student id: 101");
-        StudentName();
-        System.out.println("Student mobile number: 1234567899");
-
+        add();
     }
 
 }
