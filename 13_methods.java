@@ -9,12 +9,19 @@ class methods {
 
     //WITH PARAMETERS
     static void printSum(int x, int y){
-        System.out.println("Sum: "+ (x + y));
+        int a = 4;
+        int b = 6;
+        int sum = a+b;
+        System.out.println("Sum: "+ sum);
     }
 
     public static void main(String[] args) {
-        add();
+
+        //call or invoke object
+        add();       
         printSum(20, 5);
     }
 
 }
+
+//Methods signature : tell the Return type, Method name and Parameters
