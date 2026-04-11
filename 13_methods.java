@@ -33,6 +33,12 @@ class methods {
         return age >= 18;
     }
 
+    static void solve(int num){
+        System.out.println("inside solve: " + num);
+        num = num * 10;
+        System.out.println("inside solve : " + num);
+    }
+
     public static void main(String[] args) {
 
         //call or invoke object
@@ -42,6 +48,13 @@ class methods {
         adding(12, 7, 6);
         boolean eligible = isEligiableForVote(17);
         System.out.println("Eligible for Voting: " + eligible);
+
+        //call by Value
+        int num  =5;
+        System.out.println("inside main : " + num);
+        solve(num);
+        System.out.println("inside main : " + num);
+
     }
 
 }
