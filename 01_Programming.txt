@@ -1,0 +1,7 @@
+#Programming: if you want to perform any task on your machine,
+you need to give some set of instructions to your machine for 
+that perticular task.
+
+example -> you want to perform addition on your machine
+and you have some inputs and you want output in that case, now you give some 
+instructions to some so that machine should add numbers and give you output.

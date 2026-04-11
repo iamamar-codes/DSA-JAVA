@@ -1,0 +1,4 @@
+#Problem Approach: Basic Approach for Solving your DSA Quetion
+Step 1: Understand the Problem.
+Step 2: Write Giving Values so you can think about solution.
+Step 3: At last thing your Approach /Algorithm.

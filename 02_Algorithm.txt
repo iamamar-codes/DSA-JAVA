@@ -1,0 +1,9 @@
+#ALGORITHM: Algorithm is a set of finite, well-defined steps or instructions 
+designed to solve a problem or perform a computation.
+
+OR a series of tasks that use to perform your task is know Algorithm.
+
+-> Need for Algorithms:
+*Solve complex problems efficiently and effectively.
+*Automate processes, making them reliable, faster, and easier.
+*Enable computers to perform tasks difficult or impossible for humans.
