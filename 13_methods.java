@@ -18,8 +18,15 @@ class methods {
     //Non Void function: return something
     static int adding (int p, int q){
         int sum = p+q;
-        System.out.println("Sum:" + (p+q) );
+        System.out.println("Ans1 :" + (p+q) );
         return sum;
+    }
+
+    //Method Overloading : same name but different method signature
+    static int adding(int x, int y, int z){
+        int sum  = x + y + z;
+        System.out.println("Ans2 :" + (x+y+z));
+         return sum;
     }
 
     static boolean isEligiableForVote(int age){
@@ -32,6 +39,7 @@ class methods {
         add();       
         printSum(20, 5);
         adding(5, 8);
+        adding(12, 7, 6);
         boolean eligible = isEligiableForVote(17);
         System.out.println("Eligible for Voting: " + eligible);
     }
