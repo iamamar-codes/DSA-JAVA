@@ -39,6 +39,15 @@ class methods {
         System.out.println("inside solve : " + num);
     }
 
+    static void printMultiples(){
+        int value = 10;
+        for(int i=1; i <= 10; i++){
+            System.out.println(10*i);
+        }
+       // System.out.println(value);
+    }
+
+
     public static void main(String[] args) {
 
         //call or invoke object
@@ -54,6 +63,8 @@ class methods {
         System.out.println("inside main : " + num);
         solve(num);
         System.out.println("inside main : " + num);
+
+        printMultiples();
 
     }
 
