@@ -22,12 +22,18 @@ class methods {
         return sum;
     }
 
+    static boolean isEligiableForVote(int age){
+        return age >= 18;
+    }
+
     public static void main(String[] args) {
 
         //call or invoke object
         add();       
         printSum(20, 5);
         adding(5, 8);
+        boolean eligible = isEligiableForVote(17);
+        System.out.println("Eligible for Voting: " + eligible);
     }
 
 }
