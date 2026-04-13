@@ -12,6 +12,16 @@ class Array {
         System.out.println("Value at 1 index " + brr[1]);
         System.out.println("Value at 2 index " + brr[2]);
 
+        System.out.println("Print Array Elements using For loop ");
+        int n = 3;
+        for(int index = 0; index <= n-1; index++){
+            System.out.println(brr[index]);
+        }
+
+        System.out.println("Print Array Elements using For Each loop ");
+        for(int val : brr){
+            System.out.println(val);
+        }
     }
     
 }
