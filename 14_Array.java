@@ -1,9 +1,11 @@
+import java.util.Scanner;
+
 class Array {
     public static void main(String[] args) {
         //Decalarion
-        int arr[];
+        int arr1[];
         //allocation
-        arr = new int[5];
+        arr1 = new int[5];
 
         //init
         int brr[] = {10, 20, 30};
@@ -13,14 +15,28 @@ class Array {
         System.out.println("Value at 2 index " + brr[2]);
 
         System.out.println("Print Array Elements using For loop ");
-        int n = 3;
-        for(int index = 0; index <= n-1; index++){
+        int n1 = 3;
+        for(int index = 0; index <= n1-1; index++){
             System.out.println(brr[index]);
         }
 
         System.out.println("Print Array Elements using For Each loop ");
         for(int val : brr){
             System.out.println(val);
+        }
+
+        //taking input from user
+
+        int arr[] = new int[5];
+        Scanner sc = new Scanner(System.in);
+        int n = arr.length;
+        for(int i=0; i<=n-1; i++){
+            System.out.println("Providde inpute for index " + i);
+            arr[i] = sc.nextInt();
+        }
+        System.out.println("Array Elements: ");
+        for(int val : arr){
+            System.out.print(" " + val);
         }
     }
     
