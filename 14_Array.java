@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class Array {
     public static void main(String[] args) {
-        //Decalarion
+        // //Decalarion
         // int arr1[];
         // //allocation
         // arr1 = new int[5];
@@ -39,14 +39,25 @@ class Array {
         //     System.out.print(" " + val);
         // }
 
-        //1. Practice quetion : sum array list
+        // //1. Practice quetion : sum array list
 
-        int add[] = {10,20,55,30};
-        int sum = 0;
-        for(int i=0; i <= add.length-1; i++){
-            sum = sum + add[i];
+        // int add[] = {10,20,55,30};
+        // int sum = 0;
+        // for(int i=0; i <= add.length-1; i++){
+        //     sum = sum + add[i];
+        // }
+        // System.out.println("Sum of Array : " + sum);
+
+        //2. Practice Quetion : Multiply of array List
+
+        int mult[] = {2, 3, 4, 5};
+        int ans = 1;
+        int n = mult.length;
+        for(int i=0; i<=n-1; i++){
+            int value = mult[i];
+            ans = ans * value;
         }
-        System.out.println("Sum of Array : " + sum);
+        System.out.println("Multiply of Array: " + ans);
     }
     
 }
