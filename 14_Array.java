@@ -40,16 +40,15 @@ class Array {
         }
 
         //1. Practice quetion : sum array list
-
-        int add[] = {10,20,55,30};
+         int add[] = {10,20,55,30};
         int sum = 0;
         for(int i=0; i <= add.length-1; i++){
             sum = sum + add[i];
         }
         System.out.println("Sum of Array : " + sum);
 
-        //2. Practice Quetion : Multiply of array List
 
+        //2. Practice Quetion : Multiply of array List
         int mult[] = {2, 3, 4, 5};
         int ans = 1;
         int n = mult.length;
@@ -61,7 +60,6 @@ class Array {
 
 
         //3. practice quetion: find maximum value inside array
-        
         int max[] = {45,23,11,-87,2};
         int maxValue = max[0];
 
@@ -71,6 +69,18 @@ class Array {
             }
         }
         System.out.println("Printing Maximum Value in Array : "+ maxValue);
+
+
+        //4. practice quetion: find Minimum value in Array
+        int min[] = {12,11,-9,33,42};
+        int minValue = min[0];
+
+        for(int i=0; i<=min.length-1; i++){
+            if(min[i] < minValue){
+                minValue = min[i];
+            }
+        }
+        System.out.println("Printing Minimum Value in Array : " + minValue);
 
     }
     
