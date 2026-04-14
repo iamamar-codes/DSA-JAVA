@@ -12,7 +12,7 @@ class StringDemo {
         //Comparing String
         // 1. == (double equals)
         String name1 = "Amar";
-        String name2 = "Amar";
+        String name2 = "amar";
         if(name1 == name2){
             System.out.println("Both Are same");
         }
@@ -30,7 +30,16 @@ class StringDemo {
         else{
             System.out.println("Both are not same");
         }
-        /*.equal() checks the variales and also it is a case sensitive */
+        /*.equal() checks the contant and it is a case sensitive */
+
+        //3 .equalIgnoreCase() 
+        if(name1.equalsIgnoreCase(name2)){
+            System.out.println("Both Are same");
+        }
+        else{
+            System.out.println("Both are not same");
+        }
+        /*.equalIgnoreCase() checks the contant and ignore the case sensitivity */
 
     }
 }
