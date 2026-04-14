@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class StringDemo {
     public static void main(String[] args) {
         String firstName = "Amar";
@@ -47,7 +49,23 @@ class StringDemo {
 
         //STRING INPUTE-----------------------------------------------------------------------------------
 
+        //1. USING NEXT()
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Write an one line");
+        String str = sc.next();
+        System.out.println("You Write: " + str);
+        /*When you use only next() it takes only one word from starting */
+
+        //2. USING NEXLINE()
+         Scanner sc1 = new Scanner(System.in);
+        System.out.println("Write an one line");
+        String str1 = sc1.nextLine();
+        System.out.println("You Write: " + str1);
+        /*When you use only nextLine() it takes full sting you Entered*/
         
+
+
+
 
     }
 }
