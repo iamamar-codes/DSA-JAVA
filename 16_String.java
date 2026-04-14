@@ -9,7 +9,10 @@ class StringDemo {
         System.out.println(lastName.length());
         System.out.println(firstName.charAt(0));
 
-        //Comparing String
+
+
+        //COMPARING STRING-------------------------------------------------
+
         // 1. == (double equals)
         String name1 = "Amar";
         String name2 = "amar";
@@ -40,6 +43,11 @@ class StringDemo {
             System.out.println("Both are not same");
         }
         /*.equalIgnoreCase() checks the contant and ignore the case sensitivity */
+
+
+        //STRING INPUTE-----------------------------------------------------------------------------------
+
+        
 
     }
 }
