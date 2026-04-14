@@ -1,4 +1,4 @@
- class StringDemo {
+class StringDemo {
     public static void main(String[] args) {
         String firstName = "Amar";
         String lastName = "Kushwaha";
@@ -8,7 +8,29 @@
 
         System.out.println(lastName.length());
         System.out.println(firstName.charAt(0));
-        
+
+        //Comparing String
+        // 1. == (double equals)
+        String name1 = "Amar";
+        String name2 = "Amar";
+        if(name1 == name2){
+            System.out.println("Both Are same");
+        }
+        else{
+            System.out.println("Both are not same");
+        }
+        /*== not comapring values, it compares the address of 
+        String Variable in String pool*/
+
+
+        //2 .equals()
+        if(name1.equals(name2)){
+            System.out.println("Both Are same");
+        }
+        else{
+            System.out.println("Both are not same");
+        }
+        /*.equal() checks the variales and also it is a case sensitive */
 
     }
 }
