@@ -44,26 +44,39 @@ class StringDemo {
         else{
             System.out.println("Both are not same");
         }
-        /*.equalIgnoreCase() checks the contant and ignore the case sensitivity */
+        /*.equalIgnoreCase() checks the contant and 
+        ignore the case sensitivity */
 
 
-        //STRING INPUTE-----------------------------------------------------------------------------------
+        //STRING INPUTE----------------------------------------------------
 
         //1. USING NEXT()
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Write an one line");
-        String str = sc.next();
-        System.out.println("You Write: " + str);
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Write an one line");
+        // String str = sc.next();
+        // System.out.println("You Write: " + str);
         /*When you use only next() it takes only one word from starting */
 
         //2. USING NEXLINE()
-         Scanner sc1 = new Scanner(System.in);
-        System.out.println("Write an one line");
-        String str1 = sc1.nextLine();
-        System.out.println("You Write: " + str1);
+        // Scanner sc1 = new Scanner(System.in);
+        // System.out.println("Write an one line");
+        // String str1 = sc1.nextLine();
+        // System.out.println("You Write: " + str1);
         /*When you use only nextLine() it takes full sting you Entered*/
         
+        
 
+        String para = "My Name is Amar";
+
+        //METHODS OF STRING
+
+        //1> .substring(beginIndex, endIndex) : devide string into parts
+        //beginIndex ---> Inclusive
+        //endIndex ---> Exclusive
+        System.out.println(para.substring(2,7));
+
+        //2> .contains() ; check that perticula word is present or not
+        System.out.println(para.contains("kushwaha"));
 
 
 
