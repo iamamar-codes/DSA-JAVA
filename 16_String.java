@@ -65,7 +65,6 @@ class StringDemo {
         /*When you use only nextLine() it takes full sting you Entered*/
         
         
-
         String para = "My Name is Amar";
 
         //METHODS OF STRING
@@ -73,10 +72,10 @@ class StringDemo {
         //1> .substring(beginIndex, endIndex): devide string into parts
         //beginIndex ---> Inclusive
         //endIndex ---> Exclusive
-        System.out.println(para.substring(2,7));
+        System.out.println(para.substring(2,7)); // Name
 
         //2> .contains(): check that perticula word is present or not
-        System.out.println(para.contains("kushwaha"));
+        System.out.println(para.contains("kushwaha")); //False
 
         //3> .valueOf(): change any data type into a String
         int num = 7345;
@@ -85,9 +84,42 @@ class StringDemo {
         System.out.println(change + 1); //7345 + 1 = 73451 (concatination)
 
         //4> .startsWith(String prefix) and .endsWith(String suffix): it checks the string is start or end with that pericular Prefix or Suffix that we enter
-        System.out.println(para.startsWith("My"));
-        System.out.println(para.endsWith("kushwaha"));
+        System.out.println(para.startsWith("My"));       //True
+        System.out.println(para.endsWith("kushwaha"));  //False
 
+        //5> .toCharArray(): coverting String into Array
+        String lName = "Kushwaha";
+        char crr[] = lName.toCharArray();
+
+        for(char ch: crr){
+            System.out.println("Value of cahr: " + ch); 
+        /*  Value of cahr: K 
+            Value of cahr: u
+            Value of cahr: s
+            Value of cahr: h
+            Value of cahr: w
+            Value of cahr: a
+            Value of cahr: h
+            Value of cahr: a */
+        }
+
+        //6> .split(): Spliting the array
+
+        String input = "Java, Python, CSS, HTML";
+        String[] words = input.split(",");
+        for(String ch: words){
+            System.out.println(ch);   
+            /*java
+              python
+              CSS
+              HTML */
+        }
+
+        //7> .replace(): old character to the new character
+        String newStr = "Banana";
+        newStr = newStr.replace('a', 'b');
+        System.out.println(newStr);
+        /*Bbnbnb*/
 
 
     }
